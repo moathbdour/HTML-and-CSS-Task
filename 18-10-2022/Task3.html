@@ -16,24 +16,24 @@
             <td ><b>Account Information</b></td>
         </tr>
         <tr>
-            <td>  <label for="fname" ><b>Login Name*</b> </label> </td>
-            <td> <input type="text"  id="fname" name="fname"><br></td>
+            <td>  <label for="logname" ><b>Login Name*</b> </label> </td>
+            <td> <input type="text" required id="logname" name="logname"><br></td>
         </tr>
         <tr>
             <td>         <label for="lname"><b>Password*</b>  </label>                </td>
-            <td><input type="password"  id="lname" name="lname"></td>
+            <td><input type="password" required id="lname" name="lname"></td>
         </tr>
         <tr>
             <td>         <label for="2name"><b>Confirm Password*</b>  </label>                </td>
-            <td><input type="password"  id="2name" name="2name"></td>
+            <td><input type="password" required id="2name" name="2name"></td>
         </tr>
         <tr>
             <td> <label for="email"><b>Email*</b></label>   </td>
-            <td><input type="email"  id="email" name="email"></td>
+            <td><input type="email" required  id="email" name="email"></td>
         </tr>
         <tr>
             <td> <label for="1email"><b>Confirm Email*</b></label>   </td>
-            <td><input type="email"  id="1email" name="1email"></td>
+            <td><input type="email" required  id="1email" name="1email"></td>
         </tr>
         <tr>
             <td ></td>
@@ -41,45 +41,46 @@
         </tr>
         <tr>
             <td>  <label for="4name" ><b>First Name*</b> </label> </td>
-            <td> <input type="text"  id="4name" name="4name"><br></td>
+            <td> <input type="text" required id="4name" name="4name"><br></td>
         </tr>
         <tr>
             <td>  <label for="5name" ><b>Last Name*</b> </label> </td>
-            <td> <input type="text"  id="5name" name="5name"><br></td>
+            <td> <input type="text" required id="5name" name="5name"><br></td>
         </tr>
         <tr>
             <td>  <label for="6name" ><b>Address 1*</b> </label> </td>
-            <td> <input type="text"  id="6name" name="6name"><br></td>
+            <td> <input type="text" required id="6name" name="6name"><br></td>
         </tr>
         <tr>
             <td>  <label for="7name" ><b>Address 2*</b> </label> </td>
-            <td> <input type="text"  id="7name" name="7name"><br></td>
+            <td> <input type="text" required id="7name" name="7name"><br></td>
         </tr>
         <tr>
             <td>  <label for="8name" ><b>City*</b> </label> </td>
-            <td> <input type="text"  id="8name" name="8name"><br></td>
+            <td> <input type="text" required id="8name" name="8name"><br></td>
         </tr>
         <tr>
             <td><label for="Course"><b>State Or Province*</b></label></td>
-            <td><select id="Course" name="Course">
+            <td><select id="Course" required name="Course">
+                <option value="CS22" selected disabled >Select...</option>
                 <option value="CS">Samad</option>
                 <option value="HTML">Mazar</option>
               </select></td>
         </tr>
         <tr>
             <td>  <label for="9name" ><b>Zip*</b> </label> </td>
-            <td> <input type="number"  id="9name" name="9name"><br></td>
+            <td> <input type="number" required  id="9name" name="9name"><br></td>
         </tr>
         <tr>
             <td>  <label for="qname" ><b>Country*</b> </label> </td>
-            <td> <input type="number"  id="qname" name="qname"><br></td>
+            <td> <input type="number" required  id="qname" name="qname"><br></td>
         </tr>
         <tr>
             <td><label for="Gender"><b>Gender*</b></label></td>
-            <td><input type="radio" id="gender" name="gender">
-                <label for="Gender">Male</label>
-                <input type="radio" id="gender" name="gender">
-                <label for="Gender">Female</label></td>
+            <td><input type="radio" required id="Gender1" name="gender">
+                <label for="Gender1">Male</label>
+                <input type="radio" id="Gender2" name="gender">
+                <label for="Gender2">Female</label></td>
         </tr>
         <tr>
             <td ></td>
@@ -88,6 +89,7 @@
         <tr>
             <td><label for="Course2"><b>Annual Household Income</b></label></td>
             <td><select id="Course2" name="Course">
+                <option value="CS22" selected disabled >Select...</option>
                 <option value="CS2">250</option>
                 <option value="HTML2">350</option>
               </select></td>
