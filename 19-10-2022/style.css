@@ -14,7 +14,10 @@
   text-align: center;
   border:2px
 }
-.paddingforleft{
+.paddingforlef{
     padding-left: 10px;
     margin-left: 100px;
+}
+.background2{
+  background-color: rgb(101, 101, 101);
 }
