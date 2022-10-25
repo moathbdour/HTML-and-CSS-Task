@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .container{
+            height: 1024px;
+            border: 7px solid orange;
+            display: flex;
+           
+        }
+        .flexcontainer{
+            flex-direction: column;
+            height: 100%;
+           
+            width: 100%;
+            text-align: center;
+           
+           font-size: 50px ;
+           color: aliceblue;
+
+        }
+        @media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+        .container{
+            flex-direction: column;
+            height: 100%;
+        }
+    }
+    @media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+        .container{
+            flex-direction: column;
+            height: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style=" background-color: rgb(12, 223, 30);" class="flexcontainer"> <p style="margin-top: 30px;">1</p></div>
+        <div style=" background-color: rgb(184, 223, 12);" class="flexcontainer"> <p style="margin-top: 30px;">2</p></div>
+        <div style=" background-color: rgb(124, 18, 106);" class="flexcontainer"> <p style="margin-top: 30px;">3</p></div>
+        <div style=" background-color: rgb(85, 85, 85);" class="flexcontainer"> <p style="margin-top: 30px;">4</p></div>
+        <div style=" background-color: rgb(7, 39, 143);" class="flexcontainer"> <p style="margin-top: 30px;">5</p></div>
+        <div style=" background-color: rgb(116, 133, 21);" class="flexcontainer"> <p style="margin-top: 30px;">6</p></div>
+        <div style=" background-color: rgb(133, 111, 136);" class="flexcontainer"> <p style="margin-top: 30px;">7</p></div>
+        <div style=" background-color: rgb(223, 12, 12);" class="flexcontainer"> <p style="margin-top: 30px;">8</p></div>
+        <div style=" background-color: rgb(102, 14, 14);" class="flexcontainer"> <p style="margin-top: 30px;">9</p></div>
+    </div>
+</body>
+</html>
